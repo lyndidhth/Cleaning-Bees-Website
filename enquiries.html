@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+ <title>Enquiries | Cleaning Bees</title>
+<meta name="description" content="CleaningBeesZA provides professional house, deep, move-in/out, and Airbnb cleaning in Amanzimtoti.">
+<meta name="keywords" content="cleaning, Amanzimtoti, deep cleaning, house cleaning, move out cleaning">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href=style.css />
+
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="services.html" class="active">Services</a></li>
+      <li><a href="enquiries.html">Enquiries</a></li>
+      <li><a href="contactus.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Enquiry Section -->
+  <main class="enquiry-wrapper">
+    <header class="enquiry-header">
+      <h1>Make an Enquiry</h1>
+      <p>Need an expert? Leave your info and we’ll be in touch shortly.</p>
+    </header>
+
+    <!-- Enquiry Form -->
+    <form class="enquiry-form" action="#" method="post">
+      <div class="form-group">
+        <label for="fullname">Full Name</label>
+        <input id="fullname" type="text" name="fullname" placeholder="Full Name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input id="email" type="email" name="email" placeholder="Email Address" required />
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" name="phone" placeholder="Phone Number" required />
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input id="subject" type="text" name="subject" placeholder="Subject" />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Submit Enquiry</button>
+    </form>
+
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAQ</title>
+  <style>
+    .faq {
+      max-width: 600px;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    .faq-item {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 10px;
+      text-align: left;
+      background: #f1f1f1;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .faq-question:hover {
+      background: #e2e2e2;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 10px;
+      background: #fafafa;
+    }
+  </style>
+</head>
+<body>
+
+<section class="faq">
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">What services do you offer?</button>
+    <div class="faq-answer">We offer general cleaning, move-in/move-out cleaning, and deep cleaning services.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">How can I book a service?</button>
+    <div class="faq-answer">You can contact us via phone or email to schedule a cleaning appointment.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you provide cleaning supplies?</button>
+    <div class="faq-answer">Yes, all cleaning supplies and equipment are provided by us.</div>
+  </div>
+</section>
+
+<script>
+ 
+  const questions = document.querySelectorAll('.faq-question');
+
+  questions.forEach(q => {
+    q.addEventListener('click', () => {
+      const answer = q.nextElementSibling;
+      if (answer.style.display === 'block') {
+        answer.style.display = 'none';
+      } else {
+        answer.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+      <div class="detail-box">
+        <i class="fas fa-phone"></i>
+        <h3>Call Us</h3>
+        <p><a href="tel:0835989549">083 598 9549</a></p>
+      </div>
+
+      <div class="detail-box">
+        <i class="fas fa-envelope"></i>
+        <h3>Email Us</h3>
+        <p><a href="mailto:cleaningbees.durban@gmail.com">cleaningbees.durban@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
